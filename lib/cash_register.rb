@@ -28,3 +28,7 @@ def add_item(item, price, quantity = 1)
 	      return "There is no discount to apply."
 	    end
 	  end
+def void_last_transaction
+	    @total -= @price
+	  end
+	end
